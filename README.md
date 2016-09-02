@@ -45,7 +45,17 @@ to change fonts and colors, in your css, use this selectors:
 
 }
 ```
+##other options
+to pause and resume adding character using these functions:
+```javascript
+wmatrixpause();
+wmatrixresume();
+```
 
+and to clean the characters use
+```javascript
+wmatrixend();
+```
 ## Samples
 To see more sample, watch sample1.html and sample2.html
 
