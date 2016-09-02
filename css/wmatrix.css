@@ -1,0 +1,99 @@
+html, body, body div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, figure, footer, header, menu, nav, section, time, mark, audio, video, details, summary{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+body, html{
+    width: 100%;
+    height: 100%;
+}
+.wmatrix{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+    color: #d4f8e3;
+    font-size: 21px;
+    font-family: Inconsolata, "Lucida Console", Monaco, Courier, monospace;
+
+}
+.wmatrix .wm{
+    position: absolute;
+    top: -10px;
+    -webkit-animation-timing-function: linear;
+    -ms-animation-timing-function: linear;
+    -moz-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-name: godown;
+    -moz-animation-name: godown;
+    -ms-animation-name: godown;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation-iteration-count: infinite;
+    -ms-animation-iteration-count: infinite;
+    animation-name: godown;
+    animation-iteration-count: infinite;
+}
+.wmatrix .wm.speed-1 {
+    -webkit-animation-duration: 4s;
+    -moz-animation-duration: 4s;
+    -ms-animation-duration: 4s;
+    animation-duration: 4s;
+}
+.wmatrix .wm.speed-2 {
+    -webkit-animation-duration: 3.5s;
+    -moz-animation-duration: 3.5s;
+    -ms-animation-duration: 3.5s;
+    animation-duration: 3.5s;
+}
+.wmatrix .wm.speed-3 {
+    -webkit-animation-duration: 3s;
+    -moz-animation-duration: 3s;
+    -ms-animation-duration: 3s;
+    animation-duration: 3s;
+}
+.wmatrix .wm.speed-4 {
+    -webkit-animation-duration: 2s;
+    -moz-animation-duration: 2s;
+    -ms-animation-duration: 2s;
+    animation-duration: 2s;
+}
+.wmatrix .wm.speed-5 {
+    -webkit-animation-duration: 1.5s;
+    -moz-animation-duration: 1.5s;
+    -ms-animation-duration: 1.5s;
+    animation-duration: 1.5s;
+}
+.wmatrix .wm.speed-6 {
+    -webkit-animation-duration: 1s;
+    -moz-animation-duration: 1s;
+    -ms-animation-duration: 1s;
+    animation-duration: 1s;
+}
+
+@-webkit-keyframes godown {
+    from {
+        top: -1%
+    }
+    to {
+        top: 100%
+    }
+}
+@-moz-keyframes godown {
+    from {
+        top: -1%
+    }
+    to {
+        top: 100%
+    }
+}
+@keyframes godown {
+    from {
+        top: -1%
+    }
+    to {
+        top: 100%
+    }
+}

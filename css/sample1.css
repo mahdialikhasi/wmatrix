@@ -1,0 +1,30 @@
+body{
+    position: relative;
+    background-color: #1d2b2a;    
+    font-smooth: never;
+    line-height: 2em;    
+    -webkit-font-smoothing: none;
+    -moz-font-smoothing: none;
+    -ms-font-smoothing: none;
+    text-shadow: -2px 0 0px rgba(0, 0, 225, 0.4), -1px 0 3px rgba(103, 171, 236, 0.6), 1px 0 4px rgba(69, 112, 204, 0.5);
+    -moz-animation: blink 0.1s steps(2, start) infinite, skip 7s linear infinite, flicker 0.1s steps(2, start) infinite;
+    -webkit-animation: blink 0.1s steps(2, start) infinite, skip 7s linear infinite, flicker 0.1s steps(2, start) infinite;
+    animation: blink 0.1s steps(2, start) infinite, skip 7s linear infinite, flicker 0.1s steps(2, start) infinite;
+    -o-animation: blink 0.1s steps(2, start) infinite, skip 7s linear infinite, flicker 0.1s steps(2, start) infinite;
+    -ms-animation: blink 0.1s steps(2, start) infinite, skip 7s linear infinite, flicker 0.1s steps(2, start) infinite;
+}
+@-moz-keyframes blink {
+  to {
+    background-color: #223332;
+  }
+}
+@-webkit-keyframes blink {
+  to {
+    background-color: #223332;
+  }
+}
+@keyframes blink {
+  to {
+    background-color: #223332;
+  }
+}
